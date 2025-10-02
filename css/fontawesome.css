@@ -1,0 +1,91 @@
+/* Font Awesome Local - Versión simplificada */
+.fa,
+.fas,
+.far,
+.fal,
+.fad,
+.fab {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+
+/* Tamaños de iconos que usas */
+.fa-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -.0667em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+/* Iconos específicos que usas en tu sitio */
+.fa-coffee:before { content: "\f0f4"; }
+.fa-desktop:before { content: "\f108"; }
+.fa-terminal:before { content: "\f120"; }
+.fa-file-code:before { content: "\f1c9"; }
+.fa-play-circle:before { content: "\f144"; }
+.fa-utensils:before { content: "\f2e7"; }
+.fa-list-alt:before { content: "\f022"; }
+.fa-tasks:before { content: "\f0ae"; }
+.fa-users:before { content: "\f0c0"; }
+.fa-chart-bar:before { content: "\f080"; }
+.fa-file-invoice-dollar:before { content: "\f571"; }
+
+/* Font Families */
+.fa,
+.fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+}
+
+.far {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 400;
+}
+
+.fab {
+  font-family: 'Font Awesome 6 Brands';
+  font-weight: 400;
+}
+
+/* Font Face Declarations - Solo WOFF2 */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  font-display: block;
+  src: url("../fonts/fa-solid-900.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/fa-regular-400.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: 'Font Awesome 6 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("../fonts/fa-brands-400.woff2") format("woff2");
+}
+
+/* Icono específico de Java (Brands) */
+.fa-java:before { 
+  font-family: 'Font Awesome 6 Brands';
+  content: "\f4e4"; 
+}
